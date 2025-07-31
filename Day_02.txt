@@ -1,0 +1,69 @@
+# Day_02
+
+##  Working with files
+
+1. Case Sensitivity
+
+= In Linux, file names are case sensitive, meaning FILE1 and file1 are two different files.
+= Linux does not recognize files by their extensions (such as .txt, .png). The file command is used for this. It tells the file type by looking at the information inside the file.
+
+──(kali㉿kali)-[~]
+└─$ file img_01.jpg
+img_01.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72
+
+2. touch = To create an empty file
+                                                                                                                                                                   
+┌──(kali㉿kali)-[~]
+└─$ touch First.txt
+                                                                                                                                                                     
+┌──(kali㉿kali)-[~]
+└─$ ls
+Desktop  Documents  Downloads  First.txt
+You can create files with touch, and if you want, you can set its date and time.
+
+3. rm: to delete files
+┌──(kali㉿kali)-[~]
+└─$ rm First.txt    
+= rm -i: Asks first whether to delete the file
+= rm -rf: Forcibly deletes a file or directory          
+
+04. cp = To copy files
+
+$ cp source.txt target.txt   # Copy file
+$ cp file1 file2 dir/        # Copy multiple files to directory
+$ cp -r dir1 dir2            # Copy entire folder
+$ cp -i file1 file2          # Ask if overwriting
+$ cp -p file1 file2          # Preserve permissions and timestamp    
+
+05. mv: To rename or move files
+$ mv old.txt new.txt        # Rename 
+$ mv file.txt /folder/      # Move to another folder   
+
+
+
+
+## practice : working with files
+
+* List the files in the /bin directory
+= ls /bin
+ 
+ * Display the type of file of /bin/cat, /etc/passwd and /usr/bin/passwd.
+ = file /bin/cat /etc/passwd /usr/bin/passwd
+ 
+ *  Create a directory ~/touched and enter it.
+ = mkdir ~/touched ; cd ~/touched
+ 
+ * Create the files today.txt and yesterday.txt in touched.
+ = touch today.txt yesterday.tx
+ 
+ * Rename copy.yesterday.txt to Nahid
+ = mv copy.yesterday.txt Nahid
+ 
+ * Use one command to remove the directory ~/testbackup and all files in it.
+ = rm -rf ~/testbackup
+ 
+ 
+ 
+ 
+ 
+ [ Day_02 Finished ] .  
