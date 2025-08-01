@@ -1,0 +1,65 @@
+## Day_03
+
+Topic Name : Working with filecontents
+
+01. head command:
+= By default, the first 10 lines of the head file are displayed.
+= If you want to see a specific number of lines [ head -4 ] 9 The first 4 lines will be displayed.)
+= If you want to see a specific number of bytes [ head -c 4 ] ( The first 4 bytes will be displayed. )
+
+02. tail command:
+= Just the opposite of head, it shows the last 10 lines.
+= tail -3 [ Will show the last 3 lines of the file ]
+
+03. cat comand : concatenate
+= It is used to view, attach, and create files.
+= cat [file name] ( With this command you can view the entire file on the screen. )
+= Showing multiple files side by side [ cat file1 file2 file3 ]
+= Creating a new file [ cat > new.txt ]
+= To indicate the end of writing with << [ cat > nahid.txt <<stop ]
+= Copying a file to another file [ cat nahid.txt > first.txt ]
+
+04. tac coammand :
+= The opposite of cat. Displays the lines of the file in reverse.
+
+05. more and less commands:
+= more shows one page at a time. Pressing space will take you to the next page, pressing q will close.
+= less is the improved version — more convenient for moving up and down.
+
+06. strings command : 
+= Finds readable ASCII text in a binary file
+
+
+### practice : file contents 
+
+01. Display the first 12 lines of /etc/services
+= head -12 /etc/services
+
+02. Display the last line of /etc/passwd.
+= tail -1 /etc/passwd
+
+03. Use cat to create a file named count.txt that looks like this:
+One
+Two
+Three
+Four
+Five
+                                                                                                                                                                 
+┌──(kali㉿kali)-[~]
+└─$ cat > count.txt
+one
+two
+three
+four
+five                                                                                                                                                                 
+┌──(kali㉿kali)-[~]
+└─$ cat count.txt  
+one
+two
+three
+four
+five
+
+
+[ Day 03 Finished ]
+
