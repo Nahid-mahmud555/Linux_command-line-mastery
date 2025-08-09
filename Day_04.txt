@@ -1,0 +1,71 @@
+## DAY 04
+
+## File system tree
+
+01. Everything is a file
+
+02.  / (Root Directory)
+= The directory structure on all Linux systems starts with /. This / is the starting point of the file system.
+
+03. /bin – Basic commands for everyone
+= There are commands that all users can run, such as cat, cp, date, echo, grep, etc. These are called binaries or executables.
+
+04. /boot – Boot files
+= This contains the files necessary to start the computer.
+
+05. /dev – Device files
+= Here, hardware devices are in file form.
+
+06. /etc – Configuration files
+= All the system configuration files are located here.
+
+07. /home – User home directories
+= Each user has a separate folder in the format /home/username.
+
+08. /lib – Shared libraries
+= The libraries needed to run the program are located here.
+
+09. /media & /mnt – Mount points
+= /media → Removable drives (USB, CD-ROM) are auto-mounted
+= /mnt → For admin to mount manually
+
+10. /proc – Virtual filesystem for kernel info
+= This contains real-time info about the system, CPU, and memory. These actually come from RAM, not the hard disk.
+
+11. /root – Root user’s home
+= The superuser's personal directory.
+
+12. /sbin – System binaries
+= There are tools for system configuration, most of which can be run by the root user.
+
+13. /srv – Service data
+= Can store data from web servers, FTP, etc.
+
+14. /sys – sysfs (device info)
+= Linux kernel 2.6, hardware info, hotplug support.
+
+15. /tmp – Temporary files
+= Program or user temp files are stored here. They may be deleted after a reboot.
+
+16. /usr – Unix System Resources
+= Contains shareable, read-only data (such as program documentation, commands, libraries).
+
+17. /var – Variable data
+= Data that changes over time, such as log files /var/log, queue files /var/spool, cache /var/cache.
+
+
+
+
+## practice : file system tree
+
+01. Does the file /bin/cat exist ? What about /bin/dd and /bin/echo. What is the type of these files ?
+= ls /bin/cat ; file /bin/cat
+= ls /bin/dd ; file /bin/dd
+= ls /bin/echo ; file /bin/echo
+
+02. What is the size of the Linux kernel file(s) (vmlinu*) in /boot ?
+= ls -lh /boot/vm*
+
+
+
+[ Day 04 FINISHED ]
