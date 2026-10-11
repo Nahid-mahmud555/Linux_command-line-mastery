@@ -1712,6 +1712,19 @@ Identify the distribution and version before using package-management commands.
 
 Choose one best answer for each question before reviewing the answer key.
 
+
+## Assessment Record
+
+**Assessment:** Linux Fundamentals — Expert Logic Test  
+**Questions Attempted:** 20  
+**Correct Answers:** 19  
+**Score:** 19/20  
+**Percentage:** 95%  
+**Difficulty:** Hard to Expert
+
+**Learning Achievement:** Successfully completed this 20-question scenario-based assessment, demonstrating strong understanding of Linux architecture, distributions, Bash exit-status logic, standard input/output/error, redirection order, command discovery, filesystem navigation, hidden files, shell syntax, documentation, and Linux troubleshooting fundamentals.
+
+
 ## Question 1 — Exit Status
 
 You run:
@@ -2045,16 +2058,7 @@ A score is a learning indicator, not proof of professional-level Linux expertise
 
 ---
 
-## Assessment Record
 
-**Assessment:** Linux Fundamentals — Expert Logic Test  
-**Questions Attempted:** 20  
-**Correct Answers:** 19  
-**Score:** 19/20  
-**Percentage:** 95%  
-**Difficulty:** Hard to Expert
-
-**Learning Achievement:** Successfully completed this 20-question scenario-based assessment, demonstrating strong understanding of Linux architecture, distributions, Bash exit-status logic, standard input/output/error, redirection order, command discovery, filesystem navigation, hidden files, shell syntax, documentation, and Linux troubleshooting fundamentals.
 
 # Linux Fundamentals — Advanced Scenario-Based Assessment
 
