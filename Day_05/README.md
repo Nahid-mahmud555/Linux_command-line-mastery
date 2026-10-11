@@ -1713,8 +1713,13 @@ Identify the distribution and version before using package-management commands.
 Choose one best answer for each question before reviewing the answer key.
 
 <div align="center">
-  <img src="./test_02.png" alt="Advanced Linux Fundamentals Test 02 Result" width="700">
-  <p><em>Test 02 — Assessment Result (19/20)</em></p>
+
+### Test 01 — Linux Fundamentals
+
+<img src="https://raw.githubusercontent.com/Nahid-mahmud555/Linux_command-line-mastery/main/Day_05/Test_02.png" alt="Test 01 Result" width="700">
+
+**Score: 19/20 **
+
 </div>
 
 
