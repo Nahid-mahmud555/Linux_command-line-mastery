@@ -3,7 +3,7 @@
 
 **Learning Focus:** Linux Fundamentals, Command-Line Interface, Bash, Filesystem, Input/Output, and Troubleshooting  
 **Learning Level:** Beginner → Intermediate → Advanced Fundamentals  
-**Practice:** 31 Core Topics + Practical Commands + 20-Question Scenario-Based Assessment  
+**Practice:** 31 Core Topics + Practical Commands + 40+ Questions Scenario-Based Assessment  
 **Goal:** Build a strong Linux foundation for AI Data Engineering, DevOps, DevSecOps, and AI Infrastructure Engineering.
 
 ---
@@ -1712,6 +1712,11 @@ Identify the distribution and version before using package-management commands.
 
 Choose one best answer for each question before reviewing the answer key.
 
+<div align="center">
+  <img src="./test_02.png" alt="Advanced Linux Fundamentals Test 02 Result" width="700">
+  <p><em>Test 02 — Assessment Result (19/20)</em></p>
+</div>
+
 
 ## Assessment Record
 
@@ -2058,6 +2063,11 @@ A score is a learning indicator, not proof of professional-level Linux expertise
 
 ---
 
+
+<div align="center">
+  <img src="./test_01.png" alt="Advanced Linux Fundamentals Test 02 Result" width="700">
+  <p><em>Test 02 — Assessment Result (20/20)</em></p>
+</div>
 
 
 # Linux Fundamentals — Advanced Scenario-Based Assessment
