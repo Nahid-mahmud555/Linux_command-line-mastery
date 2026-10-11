@@ -2045,6 +2045,269 @@ A score is a learning indicator, not proof of professional-level Linux expertise
 
 ---
 
+# Linux Fundamentals — Advanced Scenario-Based Assessment
+
+**Assessment Type:** Multiple-Choice Questions (MCQs)  
+**Difficulty:** Advanced — FAANG-Style Interview Practice  
+**Total Questions:** 20  
+**Total Marks:** 20  
+**My Score:** 20/20 (100%)  
+**Result:** All Questions Correct
+
+---
+
+## Question 1: Linux Kernel vs. Distribution
+
+During a Linux kernel upgrade on an enterprise production server, the system suddenly crashes and fails to boot. Considering the core role of the kernel as the bridge between hardware and software, and the distinction between a distro and a kernel, which of the following statements is most accurate?
+
+A) The kernel only provides a graphical interface to run applications, while the distro manages hardware drivers.
+
+B) The kernel is the memory management and hardware abstraction layer, whereas the distro is the surrounding collection of utilities, shell, and package managers.
+
+C) The distro directly controls processor registers, while the kernel only configures network sockets.
+
+D) The kernel and distro are completely separate operating systems with no dependency on each other.
+
+## Question 2: Linux Distribution Selection
+
+Your development team is building a high-performance data processing pipeline that requires cutting-edge kernel features and the latest compiler optimizations, but the enterprise-stable production environment demands rock-solid stability. What should be chosen?
+
+A) Ubuntu for cutting-edge features and Kali Linux for enterprise stability.
+
+B) Fedora for cutting-edge features and RHEL or Debian for enterprise stability.
+
+C) Windows Server exclusively for both tasks.
+
+D) Debian for cutting-edge features and Arch Linux for production.
+
+## Question 3: CLI vs. GUI on Servers
+
+A backend microservice is deployed on a Google Cloud server without any graphical user interface (GUI). Why do server administrators prefer CLI or server mode instead of a desktop environment?
+
+A) CLI mode provides higher speed because you use a mouse.
+
+B) CLI mode saves RAM and CPU resources on the server and reduces the attack surface in a headless environment, thereby increasing security.
+
+C) Using a GUI automatically disables the firewall.
+
+D) Installing a GUI on a cloud server is impossible at the kernel level.
+
+## Question 4: WSL vs. Virtual Machine
+
+A developer is using WSL (Windows Subsystem for Linux) on a Windows machine compared to a full Virtual Machine (VM). What is the primary architectural advantage of WSL?
+
+A) WSL requires more RAM and full CPU virtualization.
+
+B) WSL runs a real Linux kernel directly alongside the Windows kernel using lightweight virtualization, eliminating the overhead of separate hardware resources or a full VM.
+
+C) WSL does not support any terminal commands and only displays images.
+
+D) WSL can only function in a dual-boot environment.
+
+## Question 5: Understanding Exit Status
+
+After running a command in a production script, a developer wants to check if it executed successfully. The output of `echo $?` in the script returns `1`. What is the logical meaning?
+
+A) The previous command completed successfully (Success).
+
+B) The previous command terminated due to an error or failure.
+
+C) A new thread was created in kernel mode.
+
+D) There is exactly 1 background process currently running in the system.
+
+## Question 6: Standard Output and Standard Error
+
+In a log processing automation script, you want to save standard error (stderr) to a separate file while sending successful output (stdout) to the screen or another file. Which syntax correctly maintains this logic?
+
+A) `command > output.log 2> error.log`
+
+B) `command 1> error.log 2> output.log`
+
+C) `command &> all.log`
+
+D) `command < input.log > output.log`
+
+## Question 7: Searching Command History
+
+While working on a Meta development server, you run the `history` command and want to find a specific older command using a keyboard reverse-search shortcut. What is that shortcut and its internal mechanism?
+
+A) Pressing Ctrl + C cancels the command and opens search mode.
+
+B) Pressing Ctrl + R triggers the reverse-i-search prompt, which searches the history buffer for matching commands in real time.
+
+C) Pressing the Tab key twice executes a random old command.
+
+D) Pressing Alt + F4 filters the terminal history.
+
+## Question 8: Identifying Commands
+
+In the Linux filesystem, after typing a command, how does the shell determine whether it is a shell builtin or an external binary executable? Which command can you use to check its exact path or type?
+
+A) `man command_name`
+
+B) `type command_name` or `which command_name`
+
+C) `cat command_name`
+
+D) `pwd command_name`
+
+## Question 9: Linux Configuration Files
+
+According to the Linux filesystem hierarchy, where are all system configuration files (such as network or password configs) centrally stored, and what is its location?
+
+A) The `/home` directory, located inside the user profile.
+
+B) The `/etc` directory, located directly under the root `/` directory.
+
+C) The `/var` directory, located within system memory.
+
+D) The `/tmp` directory, located in BIOS memory.
+
+## Question 10: Relative Path Navigation
+
+While debugging on a Google server, you are inside the `/var/log/nginx/` folder. From your current location, using absolute vs. relative path logic, which command should you use to go back two levels to the `/var` folder?
+
+A) `cd .`
+
+B) `cd ..`
+
+C) `cd ../..`
+
+D) `cd /home`
+
+## Question 11: Hidden Files and Long Listing
+
+During a security audit on a Linux server, hidden files or dotfiles were not showing up with a basic `ls` command. Which command option correctly lists all hidden files in a long format?
+
+A) `ls -h`
+
+B) `ls -la`
+
+C) `ls -S`
+
+D) `ls -r`
+
+## Question 12: Production Filename Best Practices
+
+According to Linux file and directory naming rules regarding case sensitivity and special character handling, which filename complies 100% with production best practices?
+
+A) `Production Config File v2!.json`
+
+B) `production-config_v2.json`
+
+C) `PRODUCTION/CONFIG?v2.json`
+
+D) `production*config#2.json`
+
+## Question 13: Short Options vs. Long Options
+
+When parsing options in a Bash script, what is the logical difference between short options and long options, such as `ls -a` vs. `ls --all`?
+
+A) Short options are only supported by the kernel, while long options are only supported by Windows.
+
+B) Short options consist of a single hyphen and a single character (e.g., `-a`), whereas long options consist of two hyphens and a full word (e.g., `--all`), both typically serving the same purpose.
+
+C) Short options delete files, while long options create new files.
+
+D) Short options require sudo permissions, whereas long options do not.
+
+## Question 14: Terminal Emulator vs. Shell
+
+How would you explain the architectural difference between a terminal emulator (such as Alacritty or GNOME Terminal) and a shell (such as Bash) in an interview?
+
+A) The terminal emulator is the command interpreter, and the shell is the graphical driver.
+
+B) The terminal emulator is the GUI window that displays text and takes input, while the shell is the process that interprets commands and sends them to the kernel.
+
+C) The shell creates hardware components, while the terminal formats the filesystem.
+
+D) There is no difference between a terminal and a shell; they are opposing names for the exact same thing.
+
+## Question 15: Manual Pages and Documentation
+
+When reading the manual page (`man`) for a complex command, how do you perform a quick search and understand which section documents user commands versus system calls?
+
+A) Use `?` inside the man page to save the output.
+
+B) Use `/` to search within the man page, where Section 1 covers user commands and Section 2 covers system calls.
+
+C) Searching is impossible in a man page; you must scroll down manually.
+
+D) Section 9 is the file permission manual.
+
+## Question 16: Tab Completion
+
+While working on a Meta development server, you keep making spelling mistakes when typing long file paths. What background logic does the shell apply when using Tab Completion?
+
+A) The shell downloads the file name from the internet to complete it.
+
+B) The shell checks the environment path or command buffer to auto-fill unique matches, or displays options on a double tab if there are multiple matches.
+
+C) Pressing Tab forces the system to auto-reboot.
+
+D) The shell reads file contents and displays a summary on the screen.
+
+## Question 17: `/tmp` vs. `/var`
+
+What is the core functional logical difference between the `/tmp` and `/var` folders in the Linux filesystem hierarchy?
+
+A) The `/tmp` folder contains passwords, while `/var` contains Windows executable files.
+
+B) `/tmp` is for short-term temporary files that may be deleted upon system reboot, whereas `/var` is for variable data like permanent logs and databases.
+
+C) `/tmp` is read-only for root, while `/var` can never be read from.
+
+D) There is no difference; both are used for backup storage.
+
+## Question 18: Live USB and System Recovery
+
+When troubleshooting a broken system password using a Live USB, you need to mount the hard disk. What is the primary purpose and working principle of a Live USB?
+
+A) It directly erases the BIOS chip and rewrites a new kernel.
+
+B) It loads the complete Linux operating system into computer RAM, allowing system recovery or diagnostics without modifying the hard disk.
+
+C) A Live USB is exclusively used for listening to music and watching videos.
+
+D) It formats the C drive and installs Windows.
+
+## Question 19: GNU/Linux Architecture
+
+In the GNU/Linux ecosystem, how do the GNU project and the Linux kernel complement each other?
+
+A) The GNU project only builds mouse and keyboard drivers.
+
+B) The Linux kernel manages only hardware and processes, whereas the GNU project provides compilers (`gcc`), shells (`bash`), and core utilities to form a complete operating system.
+
+C) GNU can function completely on its own without the Linux kernel.
+
+D) The Linux kernel and GNU are rival corporations.
+
+## Question 20: `command -v` in Automation
+
+When running an automated deployment script, `command -v` is frequently used. What is the primary reason or logic for preferring `command -v` in script writing over `which` or `type`?
+
+A) `command -v` increases process speed by 10x.
+
+B) `command -v` is a shell-portable builtin that bypasses shell aliases or overrides to return the correct binary path or status safely in production scripts.
+
+C) The `which` command does not work on Linux.
+
+D) The `type` command revokes root permissions from users.
+
+---
+
+## Assessment Record
+
+**Assessment:** Linux Fundamentals — Advanced Scenario-Based MCQs  
+**Questions Attempted:** 20  
+**Correct Answers:** 20  
+**Score:** 20/20  
+**Percentage:** 100%
+
+**Learning Achievement:** Successfully completed this 20-question assessment covering Linux architecture, distributions, server environments, WSL, exit statuses, standard streams, command history, command discovery, filesystem navigation, hidden files, naming conventions, shell options, documentation, Tab completion, and GNU/Linux fundamentals.
+
 # 20. Final Revision Checklist
 
 Use this checklist to track your progress.
