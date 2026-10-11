@@ -1714,7 +1714,7 @@ Choose one best answer for each question before reviewing the answer key.
 
 <div align="center">
 
-### Test 01 — Linux Fundamentals
+### Test 01 
 
 <img src="https://raw.githubusercontent.com/Nahid-mahmud555/Linux_command-line-mastery/main/Day_05/Test_02.png" alt="Test 01 Result" width="700">
 
@@ -2070,8 +2070,13 @@ A score is a learning indicator, not proof of professional-level Linux expertise
 
 
 <div align="center">
-  <img src="./test_01.png" alt="Advanced Linux Fundamentals Test 02 Result" width="700">
-  <p><em>Test 02 — Assessment Result (20/20)</em></p>
+
+### Test 02 
+
+<img src="https://raw.githubusercontent.com/Nahid-mahmud555/Linux_command-line-mastery/main/Day_05/Test_01.png" alt="Test 02 Result" width="700">
+
+**Score: 20/20 **
+
 </div>
 
 
