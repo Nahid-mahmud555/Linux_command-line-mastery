@@ -1,0 +1,78 @@
+Linux Fundamentals: Building a Strong Foundation Through Hands-On Learning
+
+As part of my journey toward becoming an AI Data Engineer and eventually moving into DevOps, DevSecOps, and AI Infrastructure Engineering, I've been strengthening my Linux fundamentals through structured learning, practical exercises, and scenario-based assessments.
+
+Instead of simply memorizing commands, my focus has been on understanding how Linux works, how commands behave, and how to approach technical problems logically.
+
+#  What I've Learned
+
+1. Linux Fundamentals
+
+Understanding what Linux is and why it matters.
+
+Learning the role of the Linux kernel and the relationship between GNU and Linux.
+
+Understanding the differences between Linux distributions, including Ubuntu, Debian, Fedora, and Red Hat Enterprise Linux (RHEL).
+
+2. Version of Interaction: Terminal, Shell, and Bash
+
+Understanding the differences between a terminal, a shell, and Bash.
+
+Learning the basic structure of Linux commands.
+
+Understanding command arguments and options.
+
+Practicing how to interpret command behavior in different situations.
+
+3. Command Execution and Exit Status
+
+Understanding how Linux commands report success or failure.
+
+Learning about exit status codes and the special variable $?.
+
+Exploring how one command's result can affect subsequent commands.
+
+4. Standard Input, Output, and Error
+
+Understanding standard input (stdin), standard output (stdout), and standard error (stderr).
+
+Learning output redirection and error redirection.
+
+Understanding how redirection order can change command behavior.
+
+5. File Systems and Navigation
+
+Practicing directory navigation using Linux commands.
+
+Understanding absolute and relative paths.
+
+Exploring the Linux filesystem hierarchy.
+
+Learning how hidden files work and how to identify them.
+
+6. Command Discovery and Documentation
+
+Exploring commands such as type, which, and command -v.
+
+Learning how to use man, help, and other documentation resources.
+
+Understanding why reading documentation is an essential engineering skill.
+
+7. Practical Problem-Solving
+
+Practicing Linux command-line operations.
+
+Analyzing scenario-based questions instead of relying only on memorization.
+
+Testing my understanding of shell behavior, command execution, file navigation, and troubleshooting.
+
+#  How I Tested My Knowledge
+
+After studying the fundamentals, I challenged myself with two scenario-based assessments to evaluate my conceptual understanding and identify areas for improvement.
+
+Assessment 01: 20/20 — 100%
+
+Assessment 02: 19/20 — 95%
+
+These assessments helped me evaluate what I understood well and where I could continue improving.
+
