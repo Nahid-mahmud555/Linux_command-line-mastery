@@ -4,7 +4,7 @@
 **Learning Focus:** Linux Fundamentals, Command-Line Interface, Bash, Filesystem, Input/Output, and Troubleshooting  
 **Learning Level:** Beginner → Intermediate → Advanced Fundamentals  
 **Practice:** 31 Core Topics + Practical Commands + 40+ Questions Scenario-Based Assessment  
-**Goal:** Build a strong Linux foundation for AI Data Engineering, DevOps, DevSecOps, and AI Infrastructure Engineering.
+**Goal:** Build a strong Linux foundation for AI Data Engineering, DevOps, DevSecOps, and AI Infrastructure Engineering. 
 
 ---
 
